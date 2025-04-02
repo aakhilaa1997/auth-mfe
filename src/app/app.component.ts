@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { Router, RouterOutlet } from '@angular/router';
 
 
 @Component({
@@ -10,4 +10,10 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'one-shop-AI';
+  constructor(private router: Router){
+  }
+
+navigateToHome() {
+  this.router.navigate(['/homescreen']); // Navigates to the home route
+}
 }

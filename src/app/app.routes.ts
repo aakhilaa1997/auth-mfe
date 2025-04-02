@@ -6,7 +6,7 @@ import { HomescreenComponent } from './homescreen/homescreen.component';
 
 export const routes: Routes = [
     {
-        path: '', component: LoginComponent,
+        path: 'login', component: LoginComponent,
     },
     {
         path: 'forgot-password', component: ForgotPasswordComponent,
