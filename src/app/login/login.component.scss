@@ -1,0 +1,66 @@
+// :host Selector:
+
+// Centers the entire login component (<app-login>) in the middle of the page using flexbox.
+// height: 100vh ensures the component takes up the full height of the viewport.
+// .form-container:
+
+// Centers the form elements (username, password, and submit button) inside the login component.
+// Adds optional styling like padding, border, and background color for better appearance.
+// Input and Button Styling:
+
+// Ensures consistent width and spacing for the input fields and the submit button.
+
+:host {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 50vh; /* Full viewport height */
+    width: 100%; /* Full viewport width */
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center elements horizontally */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for better appearance */
+    background-color:white; /* Optional: Add a background color */
+}
+label {
+    margin-bottom: 5px; /* Add spacing between label and input */
+}
+#Login{
+    color: #FF5733;
+    padding-left: 75px;
+    font-size: 40px;
+}
+
+#username, #password {
+    width: 200px; /* Adjust width as needed */
+    margin-bottom: 15px; /* Add spacing between inputs */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}  
+#submit {
+    width: 100px; 
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+p{
+    padding-top: 20px;
+    padding-left: 25px;
+    color: blue;
+    font-size: 15px;
+    margin-top: 5px;
+    
+}
+#forgotpassword{
+    padding-left: 50px;
+}
