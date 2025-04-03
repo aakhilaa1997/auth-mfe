@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "one-shop-AI": {
+    "auth-mfe": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/one-shop-ai",
+            "outputPath": "dist/auth-mfe",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -70,10 +70,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "one-shop-AI:build:production"
+              "buildTarget": "auth-mfe:build:production"
             },
             "development": {
-              "buildTarget": "one-shop-AI:build:development"
+              "buildTarget": "auth-mfe:build:development"
             }
           },
           "defaultConfiguration": "development"

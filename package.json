@@ -1,5 +1,5 @@
 {
-  "name": "one-shop-ai",
+  "name": "auth-mfe",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:one-shop-AI": "node dist/one-shop-ai/server/server.mjs"
+    "serve:ssr:auth-mfe": "node dist/auth-mfe/server/server.mjs"
   },
   "private": true,
   "dependencies": {

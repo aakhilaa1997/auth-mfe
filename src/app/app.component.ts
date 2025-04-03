@@ -10,7 +10,7 @@ import { Router, RouterOutlet } from '@angular/router';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'one-shop-AI';
+  title = 'auth-mfe';
   showDropdown = true;
   constructor(private router: Router){
      // Listen to route changes and toggle dropdown visibility
