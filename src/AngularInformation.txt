@@ -1,3 +1,8 @@
+This is a micro frontend which only deals with initial login registration and forgot 
+password pages.
+
 Main component root here Login is declared in the index.html
 And then from there you need to connect all components through href in routes.ts
 Make sure to add their component in main.ts and main.server.ts
+Have compulsary added app component ts because if you want to route to different pages independently then 
+<router-outlet></router-outlet> has to be given and it has to be defined in the component.ts file
