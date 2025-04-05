@@ -19,8 +19,8 @@
     display: flex;
     flex-direction: column; /* Stack elements vertically */
     align-items: center; /* Center elements horizontally */
-    padding: 20px;
-    width: 300px; /* Adjust width as needed */
+    width: 600px; /* Adjust width as needed */
+    height:60%;
     background-color: white;
     border: 1px solid white;
     border-radius: 10px;
@@ -37,7 +37,8 @@
 
 #username, #password {
     width: 50%; /* Full width of the form container */
-    margin-bottom: 15px;
+    margin-bottom: 25px;
+    margin-top: 25px;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -64,4 +65,19 @@ p {
 }
 h1{
     color: #f3641d;
+}
+a{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.register {
+    color: blue;
+    display: block; /* Ensure each link is on its own line */
+    margin-bottom: 1px; /* Add space below the registration link */
+}
+
+.forgotpassword {
+    color: blue;
+    display: block; /* Ensure each link is on its own line */
+    margin-top: 1px; /* Add space above the forgot password link */
 }
