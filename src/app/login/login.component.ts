@@ -14,4 +14,10 @@ import { RouterModule } from '@angular/router';
 export class LoginComponent {
   constructor(private router: Router){
   }
+
+  onSignIn() {
+    //window.location.href redirects user to specified URL like dashboard-mfe
+    // window.location.href = 'http://localhost:4300?username=${username}'; // Example: Redirect to dashboard-mfe
+    window.location.href = 'http://localhost:4300';
+}
 }
