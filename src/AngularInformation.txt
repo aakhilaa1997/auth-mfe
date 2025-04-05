@@ -1,0 +1,3 @@
+Main component root here Login is declared in the index.html
+And then from there you need to connect all components through href in routes.ts
+Make sure to add their component in main.ts and main.server.ts
